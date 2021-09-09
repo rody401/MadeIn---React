@@ -10,7 +10,7 @@ const Navbar = () => {
 
             <ul classname="navbar_links">
                 <li>
-                    <Link to="/addproduct">
+                    <Link to="/addproduct" className="add_link">
                         <i className="fas fa-plus"></i>
                         Add
                     </Link>
