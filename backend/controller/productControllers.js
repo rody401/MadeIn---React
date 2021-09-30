@@ -1,4 +1,4 @@
-const Product = require('../models/Products');
+const Product = require('../models/product');
 
 const getAllProducts = async (req, res) => {
     try {
@@ -22,5 +22,5 @@ const getProductById = async (req, res) => {
 
 module.exports = {
     getAllProducts,
-    getProductById
+    getProductById,
 };
