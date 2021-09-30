@@ -6,7 +6,9 @@ const SideDrawer = ( {show} ) => {
     if(show){
         sideDrawerClass.push("show");
     }
-    return <div className={sideDrawerClass.join(" ")}></div>
+    return <div className={sideDrawerClass.join(" ")}>
+        
+    </div>
 }
 
 export default SideDrawer

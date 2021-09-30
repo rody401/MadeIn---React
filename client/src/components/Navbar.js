@@ -10,6 +10,7 @@ const Navbar = ( {click} ) => {
 
             <ul className="navbar_links">
                 <li>
+                    {/* Shows up if logged in!*/}
                     <Link to="/addproduct" className="add_link">
                         <i className="fas fa-plus"></i>
                         Add
@@ -18,6 +19,16 @@ const Navbar = ( {click} ) => {
                 <li>
                     <Link to="/">
                         Home
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/login">
+                        Login
+                    </Link>
+                </li>
+                <li>
+                    <Link to="/register">
+                        Register
                     </Link>
                 </li>
 
