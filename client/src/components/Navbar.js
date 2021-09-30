@@ -3,12 +3,12 @@ import {Link} from 'react-router-dom';
 
 const Navbar = ( {click} ) => {
     return (
-        <nav classname="navbar">
-            <div classname="navbar_logo">
+        <nav className="navbar">
+            <div className="navbar_logo">
                 <h2>MadeIn</h2>
             </div>
 
-            <ul classname="navbar_links">
+            <ul className="navbar_links">
                 <li>
                     <Link to="/addproduct" className="add_link">
                         <i className="fas fa-plus"></i>
@@ -34,4 +34,4 @@ const Navbar = ( {click} ) => {
     )
 }
 
-export default Navbar
+export default Navbar;
